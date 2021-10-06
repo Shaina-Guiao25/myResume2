@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.center {
+    background-image: url('../images/personal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(218, 218, 209); */
+    margin: auto;
+    width: 20%;
+    border: 3px solid #5e6ad8;
+    padding: 10px;
+    margin-left: 9em;
+    margin-top: 6em;
+    text-align: justify;
+    color: white;
+}
+ul {
+    list-style: none
+}
+.down {
+    /* background-color: rgb(219, 215, 215); */
+    background-image: url('../images/personall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 20%;
+    border: 3px solid #45caa9;
+    padding: 10px;
+    margin-left: 9em;
+    text-align: justify;
+   text-align: center;
+   color: white;
+}
+li::before {content: ">"; color: red}
+.jumbotron{
+    background-image: url('../images/resume.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    margin-left: 30.2em;
+    height: 350px;
+    color: white;
+    text-align: center;
+    margin-top: -64.8em;
+
+}
+.down p{
+    font-size: 24px;
+}
+.back1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-top: 5px solid red;
+    border-right: 5px solid red;
+    height: 255px;
+    width: 30%;
+    margin-top: -16em;
+    margin-left: 45em;
+
+}
+.image{
+    margin-left: 17em;
+    margin-top: -13em;
+
+}
+.social{
+    display:inline-block;
+    width:700px;
+    height:40px;
+    margin-top:5px;
+    margin-left:5px;
+  }
+  .expgroup{
+    width:300px;
+    height:40px;
+    position:absolute;
+    display:inline-block;
+  }
+.info-cards{
+    width: 60%;
+    margin-left: 30.2em;
+}
+
+  .card{
+    box-shadow: 0 5px 40px 0 rgba(90, 230, 206, 0.1);
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    padding: 15px 30px 30px 30px;
+    background-color: rgb(255, 255, 255);;
+    margin-top: -1em;
+}
+.card > p{
+    color: #0e141e;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 2;
+}
+.card > p > i{
+    font-size: 18px;
+}
+.card > a{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    border: 0;
+    height: auto;
+    background: transparent;
+    color: #097bbf;
+    outline: none;
+    cursor: pointer;
+}
+.card > ul{
+    list-style-type: none;
+}
+@media screen and (max-width:850px){
+    .card{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+    .center{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+    .down{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+    .jumbotron{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+    .back1{
+        margin: 0 5%;
+        margin-bottom: 30px;
+       
+    }
+    .image{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+    .social{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+    .info-cards{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+}
+.school{
+    font-weight: normal;
+    padding-left: 50px;
+}
+  /* .content{
+    background-image: url('../images/personal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+      height: 900px;
+      width:60%;
+      margin-top: 1em;
+      margin-left: 22em;
+      color: white;
+  }
+  table{
+      width: 100%;
+      font-size: large;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.technical{
+    width: 200px;
+    background-color: gray;
+} */
